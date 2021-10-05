@@ -1,0 +1,232 @@
+.choice 
+{
+   position: relative;
+   z-index: 1;
+   padding-bottom: 150px;
+}
+.choice__info {
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   max-width: 1280px;
+   padding: 100px 370px;
+   padding-bottom: 317px;
+   background-color: #2C343E;
+   color: #FEFCF7;
+   text-align: center;
+   border-radius: 10px;
+}
+.choice__heading {
+   margin: 0;
+   margin-bottom: 32px;
+   padding: 0;
+}
+.choice__paragraph {
+   margin: 0;
+   padding: 0;
+}
+.choice__list {
+   position: absolute;
+   z-index: 1;
+   left: 50%;
+   transform: translate(-50%, -60%);
+   display: flex;
+   align-items: center;
+   width: 100%;
+   max-width: 1110px;
+   margin: 0 auto;
+   padding: 0;
+   list-style-type: none;
+}
+.choice__item {
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   max-width: 350px;
+   background-color: #0E8784;
+   border-radius: 10px;
+}
+.choice__item + .choice__item {
+   margin-left: 30px;
+}
+.choise__item__link {
+   display: inline-block;
+   margin: 0;
+   padding: 48px;
+   padding-top: 200px;
+   text-decoration: none;
+   text-align: center;
+   color: #FEFCF7;
+}
+
+.choice__item__heading {
+   margin: 0;
+   padding: 0;
+   margin-bottom: 24px;
+}
+.chioce__item__paragraph {
+   margin: 0;
+   padding: 0;
+}
+.choice__item:nth-child(1) .choice__item__heading::before {
+   position: absolute;
+   z-index: 1;
+   top: 72px;
+   left: 50%;
+   transform: translateX(-50%);
+   content: url(../img/best-quality.svg);
+}
+.choice__item:nth-child(2) .choice__item__heading::before {
+   position: absolute;
+   z-index: 1;
+   top: 72px;
+   left: 50%;
+   transform: translateX(-50%);
+   content: url(../img/exclusive-benefits.svg);
+}
+.choice__item:nth-child(3) .choice__item__heading::before {
+   position: absolute;
+   z-index: 1;
+   top: 72px;
+   left: 50%;
+   transform: translateX(-50%);
+   content: url(../img/free-shipping.svg);
+}
+
+@media only screen and (max-width: 1149px) {
+   .choice {
+      padding-bottom: 305px;
+   }
+   .choice__info {
+      padding: 56px 70px;
+      padding-bottom: 368px;
+   }
+   .choice__heading {
+      font-size: 32px;
+   }
+   .choice__paragraph {
+      font-size: 15px;
+      line-height: 25px;
+   }
+   .choice__list {
+      flex-direction: column;
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+   }
+   .choice__item {
+      width: 100%;
+      max-width: 573px;
+   }
+   .choice__item + .choice__item {
+      margin-left: 0;
+      margin-top: 24px;
+   }
+   .choice__item:nth-child(1) .choice__item__heading::before {
+      position: absolute;
+      z-index: 1;
+      top: 62px;
+      left: 50px;
+      transform: translateX(50%);
+      content: url(../img/best-quality.svg);
+   }
+   .choice__item:nth-child(2) .choice__item__heading::before {
+      position: absolute;
+      z-index: 1;
+      top: 62px;
+      left: 50px;
+      transform: translateX(50%);
+      content: url(../img/exclusive-benefits.svg);
+   }
+   .choice__item:nth-child(3) .choice__item__heading::before {
+      position: absolute;
+      z-index: 1;
+      top: 62px;
+      left: 50px;
+      transform: translateX(50%);
+      content: url(../img/free-shipping.svg);
+   }
+   .choise__item__link {
+      padding: 41px;
+      padding-left: 181px;
+   }
+   .chioce__item__paragraph {
+      width: 100%;
+      max-width: 344px;
+      font-size: 15px;
+      line-height: 25px;
+      
+   }
+}
+@media only screen and (max-width: 612px) {
+   .choice {
+      padding-bottom: 610px;
+   }
+   .choice__info {
+      padding: 64px 24px;
+      padding-bottom: 670px;
+   }
+   .choice__heading {
+      font-size: 28px;
+      line-height: 28px;
+   }
+   .choice__paragraph
+   {
+      width: 100%;
+      max-width: 279px;
+      margin: 0 auto;
+   }
+   .choice__list {
+      flex-direction: column;
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+   }
+   .choice__item {
+      width: 100%;
+      max-width: 279px;
+   }
+   .choice__item + .choice__item {
+      margin-left: 0;
+      margin-top: 24px;
+   }
+   .choice__item:nth-child(1) .choice__item__heading::before {
+      position: absolute;
+      z-index: 1;
+      top: 72px;
+      left: 50%;
+      transform: translateX(-50%);
+      content: url(../img/best-quality.svg);
+   }
+   .choice__item:nth-child(2) .choice__item__heading::before {
+      position: absolute;
+      z-index: 1;
+      top: 72px;
+      left: 50%;
+      transform: translateX(-50%);
+      content: url(../img/exclusive-benefits.svg);
+   }
+   .choice__item:nth-child(3) .choice__item__heading::before {
+      position: absolute;
+      z-index: 1;
+      top: 72px;
+      left: 50%;
+      transform: translateX(-50%);
+      content: url(../img/free-shipping.svg);
+   }
+   .choise__item__link {
+      padding: 48px 33px;
+      padding-top: 200px;
+   }
+   .chioce__item__paragraph {
+      width: 100%;
+      max-width: 212px;
+      font-size: 15px;
+      line-height: 25px;
+      
+   }
+}
